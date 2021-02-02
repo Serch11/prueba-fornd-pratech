@@ -1,26 +1,26 @@
+# instale las dependecias del proyecto ejecuando npm i o npm install
+
 # para iniciar esta app solo es necesario ejecutar el comando npm start en la terminal de
+
 # es necesario tener el servidor del backend subido para poder interactuar la aplicacion
 
-# Registro :: la aplicacion cuenta con el modulo de registro el cual le permite 
+# Registro :: la aplicacion cuenta con el modulo de registro el cual le permite
+
 # a la persona registrarse con sus datos
 
 # Login: despues de estar registrado puede pasar al modulo login que le permitira iniciar la sessiones
-# esta session  esta autorizada por un token que recibe el usuario desde el back el cual se le es la
-# registrado en el localstorage 
+
+# esta session esta autorizada por un token que recibe el usuario desde el back el cual se le es la
+
+# registrado en el localstorage
 
 # lista usuarios el usuario puede ver la lista de todos los usuarios registrados en la base de datos
 
-# editar el usuario puede editar 
+# editar el usuario puede editar
 
-# el usuario puede eliminar 
+# el usuario puede eliminar
 
-# el usuario puede buscar un usuario por cedula 
-
-
-
-
-
-
+# el usuario puede buscar un usuario por cedula
 
 
 
