@@ -1,0 +1,42 @@
+form {
+  margin-top: 20px;
+  width: 50%;
+  height: 500px;
+  border: 1px solid none;
+  margin: 0px auto;
+  padding: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px black;
+  font-weight: bold;
+  color: #b5172f;
+}
+
+.registrarse {
+  margin-top: 30px;
+}
+.span {
+  display: block;
+  color: red;
+  margin-top: 5px;
+  text-align: justify;
+  align-self: justify;
+  font-weight: bold;
+}
+.loading {
+  width: 80px;
+  position: absolute;
+  margin: 0px auto;
+  top: 45%;
+  right: 47%;
+  z-index: 10;
+}
+.alerta{
+    width: 300px !important;
+    position: absolute !important;
+    right: 40px;
+}
+
+#btn-form{
+  background-color: #b5172f !important;
+}
