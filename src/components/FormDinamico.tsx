@@ -76,12 +76,12 @@ function FormDinamico(props: any) {
                 })
             }
         } else {
-            alert("crea un nuevo usuario")
-            console.log(useData)
+            //alert("crea un nuevo usuario")
+            //console.log(useData)
 
             axios.post("http://localhost:5001/crear-usuario", useData)
                 .then((data) => {
-                    console.log(data)
+                    //console.log(data)
                     if (data.data.ok === false) {
                         alert("El usuario existe")
                     }
@@ -94,8 +94,8 @@ function FormDinamico(props: any) {
                         // alert("Usuario creado con exito")
                     }
                 }).catch((err) => {
-                    console.log(err)
-                    console.log("Hubo un error al mandar los datos " + err)
+                    //console.log(err)
+                    window.alert("Hubo un error al mandar los datos " + err)
                 })
         }
 
@@ -137,7 +137,7 @@ function FormDinamico(props: any) {
             console.log("no hay id");
         }
 
-        console.log(props)
+       
 
     }, [])
 
@@ -204,7 +204,6 @@ function FormDinamico(props: any) {
                         <option value="">Seleccione</option>
                         <option value="femenino">Femenino</option>
                         <option value="masculino">Masculino</option>
-
                     </select>
                 </div>
                 <div className="form-group m-lg-auto" style={{ alignItems: "center", width: "50%", marginTop: "25px" }}>
