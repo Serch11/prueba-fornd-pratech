@@ -195,7 +195,7 @@ const ListaUsuarios = () => {
                                     </div>
                                 </div>
                                 <input type="text" placeholder="N° de Indentificacion" name="cedula" id="cedula" className="form-control"
-                                    required pattern="[0-9]{1,10}" onChange={hanldleChange}
+                                    required pattern="[0-9]{1,10}" onChange={hanldleChange} 
                                     title="escriba su cedula de forma adecuada solo se aceptan numeros" />
                             </div>
                         </div>
